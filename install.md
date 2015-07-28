@@ -29,6 +29,12 @@ Replace username and db name accordingly.
 
 ## Set local_settings.py, update it accordingly
     cp script/local_settings.py local_settings.py
+    
+## Open the local_settings.py in your favourite editor and change the DB credentials to the ones you used in the earlier DB setup step
+
+'NAME': 'YOUR DB NAME'
+'USER': 'YOUR DB USERNAME'
+'PASSWORD': 'YOUR PASSWORD'
 
 ## Initial db setup
     python manage.py syncdb --noinput
